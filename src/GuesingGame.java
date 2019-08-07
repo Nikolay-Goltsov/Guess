@@ -38,7 +38,7 @@ public class GuesingGame extends JFrame {
 				
 			}
 		} catch (NumberFormatException e) {
-			// TODO јвтоматически созданный блок catch
+			// TODO Автоматически созданный блок catch
 			message = "Enter a whole number between -100 and 100";
 			
 		} finally {
@@ -48,7 +48,7 @@ public class GuesingGame extends JFrame {
 		}
 		
 		
-//		System.out.println(numberOfTries);//проверка на количество кодов.
+//		System.out.println(numberOfTries);//Проверка на количество кодов.
 		
 	}
 
