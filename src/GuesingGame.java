@@ -12,14 +12,17 @@ import java.awt.event.ActionEvent;
 
 /*
  * 1- Посчитать и вывести количество попыток за всю игру. 
- * 2-При новой игре счетчик обнулить.
+ * 2- При новой игре счетчик обнулить.
  * 3- Начать игру с определенным количеством попыток. Когда попытки закончатся, 
  * то вывести угадываемое число и сообщить что игра закончена.
+ * 4- Добавить поле для ввода количества попыток перед началом игры
  */
+@SuppressWarnings("serial")
 public class GuesingGame extends JFrame {
 	private JTextField txtGuess;
 	private JLabel lblOutput;
 	private int theNumber;
+	private int offNumber;
 	private int numberOfTries=0;
 
 	public void checkGues() {
