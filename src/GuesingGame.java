@@ -22,7 +22,7 @@ public class GuesingGame extends JFrame {
 	private JTextField txtGuess;
 	private JLabel lblOutput;
 	private int theNumber;
-	private int offNumber;
+	private int offNumber;// Переменная кол-ва ходов
 	private int numberOfTries=0;
 
 	public void checkGues() {
